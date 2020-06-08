@@ -2,14 +2,14 @@ import React from 'react';
 
 import Layout from '../components/layout';
 
-const Homepage = () => {
+const About = () => {
   return (
     <Layout>
       <p>
-        This is the homepage.
+        Greetings from About
       </p>
     </Layout>
   )
 }
 
-export default Homepage;
+export default About;
