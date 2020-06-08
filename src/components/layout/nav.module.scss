@@ -1,0 +1,14 @@
+.nav {
+  max-width: 960px;
+  justify-content: space-between;
+}
+
+.links {
+  li {
+    display: inline;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
