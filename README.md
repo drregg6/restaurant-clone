@@ -1,5 +1,5 @@
-# TItle
-> A quick blurb of the purpose of this app. Who was it built by, who was it built for, why was it built, and what does it use?
+# Restaurant Clone
+> A static webpage designed to look like a modern restaurant website. Created with Gatsby and influenced by [Saad Halal](https://www.saadhalal.com/)
 
 ## Table of contents
 * [General info](#general-info)
