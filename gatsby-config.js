@@ -15,10 +15,10 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    "title": "",
-    "author": "",
-    "description": "",
-    "keywords": []
+    "title": "Dave's Restaurant",
+    "author": "Dave Regg",
+    "description": "A restaurant created by Dave to serve some delicious American foods and drinks",
+    "keywords": ["restaurant", "american", "cuisine", "dining"]
   },
   plugins: [
     `gatsby-plugin-sass`,

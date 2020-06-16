@@ -1,5 +1,5 @@
 # Restaurant Clone
-> A static webpage designed to look like a modern restaurant website. Created with Gatsby and influenced by [Saad Halal](https://www.saadhalal.com/)
+> A static webpage designed to look like a modern restaurant website. Created with Gatsby and influenced by [Saad's Halal](https://www.saadhalal.com/)
 
 ## Table of contents
 * [General info](#general-info)
