@@ -5,6 +5,7 @@ import {
   useStaticQuery
 } from 'gatsby';
 import SplashImage from '../../images/intro-bg.jpg';
+import Nav from './nav';
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -24,6 +25,7 @@ const Header = () => {
       backgroundPosition: 'center',
       backgroundSize: 'cover'
     }}>
+      <Nav title={title} />
       <div className={styles.content}>
         <h1>{title}</h1>
         <h2>All Halal / Only Halal / Always Halal</h2>

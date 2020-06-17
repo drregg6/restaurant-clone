@@ -2,14 +2,12 @@
 @import '../../styles/colors';
 
 .nav {
-  position: fixed;
+  position: sticky;
   width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: .75rem 0;
-  background: rgba(0,0,0,0.15);
-  background: transparent;
 
   a {
     h1 {
