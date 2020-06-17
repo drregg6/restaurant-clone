@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+@import '../../styles/colors';
+
 .header {
   height: 100vh;
   width: 100vw;
   margin: 0;
   padding: 0;
+  padding-top: 4rem;
+}
+
+.content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  h1 {
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: $white-color;
+  }
+  h2 {
+    font-weight: normal;
+    color: $white-color;
+    font-size: 2rem;
+  }
+  p {
+    margin: 2rem 0;
+    color: $white-color;
+    font-size: 2rem;
+  }
+  button {
+    font-size: 1.25rem;
+    padding: .75rem 1rem;
+    background: $primary-color;
+    color: $white-color;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover {
+      background: $cold-color;
+    }
+  }
 }

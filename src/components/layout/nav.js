@@ -1,13 +1,24 @@
 import React from 'react';
 import {
-  Link
+  Link,
+  useStaticQuery,
+  graphql
 } from 'gatsby';
 import styles from './nav.module.scss';
-import utilStyles from '../../styles/utils.module.scss';
 
-const Nav = ({ title }) => {
+const Nav = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
+  const { title } = data.site.siteMetadata;
   return (
-    <div className={`${utilStyles.ptb1} ${utilStyles.center} ${styles.nav}`}>
+    <div className={`${styles.nav}`}>
       <Link to="/">
         <h1>{title}</h1>
       </Link>

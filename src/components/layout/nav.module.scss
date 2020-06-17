@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+@import '../../styles/colors';
+
 .nav {
-  max-width: 960px;
-  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .75rem 0;
+  background: rgba(0,0,0,0.15);
+  background: transparent;
+
+  a {
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 600;
+      margin-bottom: 0;
+      color: $primary-color;
+    }
+  }
 }
 
 .links {
   li {
     display: inline;
-    margin-right: 1rem;
+    margin-right: 2rem;
     &:last-child {
       margin-right: 0;
+    }
+    a {
+      text-transform: capitalize;
+      color: #fff;
     }
   }
 }
